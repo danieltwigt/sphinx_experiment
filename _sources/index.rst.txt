@@ -1,4 +1,7 @@
-.. include:: ../README.rst
+.. include:: .special.rst
+.. _LINK: https://sublime-and-sphinx-guide.readthedocs.io
+.. _LINK2: https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.htmls
+
 
 Home
 ====
@@ -8,17 +11,49 @@ Home
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-Adding an image. Check out how great this looks!
+Adding an image. Check it out!
 
 .. image:: images/example_image.png
   :width: 600
   :alt: Alternative text
+
+Playing around with width options.
+
+.. image:: images/example_image.png
 
 Is it possible to embed videos? Check this out! (Using https://github.com/sphinx-contrib/video?tab=readme-ov-file)
 
 .. video:: movies/example_movie.mp4
   :width: 550
   :alt: Alternative text
+
+And a table experiment.
+
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | Cells may span columns.          |
++------------------------+------------+---------------------+
+| body row 3             | Cells may  | - Table cells       |
++------------------------+ span rows. | - contain           |
+| body row 4             |            | - body elements.    |
++------------------------+------------+---------------------+
+
+Also see some documentation here `LINK`_ and here `LINK2`_.
+
+Some experiments with PDF embedding, using raw html insertion in reStructuredText
+
+.. raw:: html 
+
+  <embed src="https://www.orimi.com/pdf-test.pdf" width="500" height="800" type="application/pdf">
+
+And some experiment using text color:
+
+This is :red:`red` And :blue:`this part is blue`.
+
 
 .. note::
 
