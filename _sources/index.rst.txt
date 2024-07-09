@@ -1,0 +1,34 @@
+.. include:: ../README.rst
+
+Home
+====
+
+**ICARUS** is a VR-based training environment for Assembly, Integration and Testing (AIT) of satellites. Great stuff! Get it! Etc. Etc.
+
+Check out the :doc:`usage` section for further information, including
+how to :ref:`installation` the project.
+
+Adding an image. Check out how great this looks!
+
+.. image:: images/example_image.png
+  :width: 600
+  :alt: Alternative text
+
+Is it possible to embed videos? Check this out! (Using https://github.com/sphinx-contrib/video?tab=readme-ov-file)
+
+.. video:: movies/example_movie.mp4
+  :width: 550
+  :alt: Alternative text
+
+.. note::
+
+   This project is under active development.
+
+Contents
+--------
+
+.. toctree::
+
+   Home <self>
+   usage
+   tutorial

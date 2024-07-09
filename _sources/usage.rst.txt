@@ -1,0 +1,14 @@
+Usage
+=====
+
+.. _installation:
+
+Requirements
+------------
+
+ICARUS requires the following bla bla.
+
+Starting ICARUS
+---------------
+
+To start ICARUS do bla bla.
